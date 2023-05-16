@@ -1,0 +1,15 @@
+let name;
+let age = 21;
+name = "JingJing" //เพิ่มข้อความเก็บในตัวแปร name
+console.log(name)
+console.log(typeof(name))   <-- type let
+console.log("อายุ ",age)
+
+
+// การสร้าง Array
+let num_Array = Array(1,2,3,4,5,6,7)
+console.log(num_Array[1])
+// ===
+let num11 = [1,2,3,4,5,6,7]
+console.log(num11[1])
+

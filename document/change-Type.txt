@@ -1,0 +1,6 @@
+parseInt --> เปลี่ยน Str เป็น Int
+
+ตัวอย่าง 
+let i = 29+""    <-- เปลี่ยน number เป็น string
+
+let i = +"29"    <-- เปลี่ยน string เป็น number

@@ -1,0 +1,55 @@
+เข้าถึง element ผ่าน Id,Tag,Class
+document.getElementById("ชื่อไอดี");
+document.getElementByTagName("ชื่อแท๊ก");
+document.getElementByClassName("ชื่อ Class");
+
+DOM document
+เปลี่ยนเนื้อหา HTML : element.innerHTML
+เปลี่ยนเนื้อหา Text : element.innerText
+เปลี่ยนเนื้อหา style Element : element.style.properties = value
+
+ดำเนินการผ่าน Method
+element.setAttribute(attribute, value)
+
+DOM
+document.createElement(element) --> สร้าง element ใหม่
+document.removeChild(element) --> ลบ node ลูก
+document.appendChild(element) --> นำ element ไปเพิ่ม
+document.replaceChild(new,old) --> แทนที่ element
+
+DOM CSS add & Remove Class
+element.classList.add("class") // เพิ่ม class style
+element.classList.remove("class") // ลบ class style
+element.classList.toggle("class") // สลับ class style
+element.classList.contains("class") // เปรียบเทียบ class style
+
+event
+onfocus=""  --> เมื่อ element นั้น ได้รับการโฟกัส
+select,text,textarea
+
+onblur="" --> เมื่อ element นั้น สูญเสียการโฟกัส
+select,text,textarea
+
+onchange="" --> เมื่อผู้ใช้เปลี่ยนแปลงค่าในฟอร์มรับข้อมูล
+select,text,textarea
+
+onselect="" --> เมื่อผู้ใช้เลือก้อความ (ใช้เมาส์ลาก) ในช่องข้อความ
+text, textarea
+
+onsubmit="" --> เมื่อผู้ใช้คลิกปุ่ม submit
+form
+
+onMouseover="" --> เกิดขึ้นเมื่อ object นั้นถูกเลื่อนเมาส์ไปทับ
+a,div
+
+onMouseout="" --> เกิดขึ้นเมื่อ object นั้นทีี่เลื่อนเมาส์ไปทับถูกเอาออก
+a,div
+
+onclick="" --> เมืื่อ click
+a,button,checkbox,radio,reset,submit
+
+onload="" --> เมื่อโหลดเอกสารเสร็จ
+body
+
+onunload="" --> เมืื่อยกเลลิกการโหลด
+body

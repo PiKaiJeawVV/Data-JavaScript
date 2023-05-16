@@ -1,0 +1,22 @@
+/* .t2{
+    color: aqua;
+    background: black;
+}
+
+.light{
+    background-color: beige;
+    color: brown;
+}
+
+.dark{
+    background-color: black;
+    color: white;
+} */
+
+.darkMode{
+    border: 1px solid;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    margin: 10px;
+}
